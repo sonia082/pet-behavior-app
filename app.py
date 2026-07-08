@@ -49,7 +49,7 @@ uploaded_file = st.file_uploader("Choose a photo...", type=["jpg", "jpeg", "png"
 # PREDICTION LOGIC
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, caption="Your Pet", use_container_width=True)
+    st.image(image, caption="Your Pet", use_column_width=True)
     
     with st.spinner("Analyzing emotions with 94% accuracy model..."):
         processed_img = preprocess_image(image)
