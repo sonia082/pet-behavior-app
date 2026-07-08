@@ -6,6 +6,9 @@ This ML model classifies pet emotions into 3 categories:
 - 😔 Sad  
 - 😠 Angry
 
+  live open:
+  https://2rnpiungh42njncegpwoxb.streamlit.app/
+
 Based on input features like age, breed, activity level, and vocalization patterns.
 
 ## Tech Stack
